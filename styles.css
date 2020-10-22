@@ -54,7 +54,7 @@ body{
     border-top-right-radius:10px;
     transform-origin: bottom;
     z-index: 10;
-    transform: translate (-50%) rotate(calc(var(--rotation)) * 1deg);
+    transform: translateX(-50%)rotate(calc(var(--rotation) * 1deg));
 }
 
 .clock::after{
