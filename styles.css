@@ -4,7 +4,13 @@
 }
 body{
     background: linear-gradient(to right, hsl(200,100%, 50%), 
-    hsl(175, 100%, 50%))
+    hsl(175, 100%, 50%));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+
     
 }
 .clock{
@@ -23,6 +29,7 @@ body{
     height: 100%;
     text-align: center;
     transform: rotate(var(--rotation));
+    font-size: 1.5rem;
 }
 .clock .number1 {--rotation: 30deg;}
 .clock .number2 {--rotation: 60deg;}
