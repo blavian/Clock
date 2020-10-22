@@ -49,6 +49,20 @@ body{
     z-index: 10;
     transform: translate (-50%) rotate(calc(var(--rotation)) * 1deg);
 }
+
+.clock::after{
+    content:'';
+    position: absolute;
+    background-color: black;
+    z-index: 11;
+    width: 15px;
+    height: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+
+}
 .clock .hand.second{
     width: 3px;
     height: 45%;
